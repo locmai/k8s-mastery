@@ -1,14 +1,17 @@
-# SA Frontend ignored files
+# SA React Frontend ignored files
 node_modules/
 **/sa-frontend/build/
 
-# SA Logic ignored files
+# SA Logic - Python ignored files
 venv/
 
-# SA WebApp ignored files
+# SA Java Spring WebApp ignored files
 target/
 .mvn/
 !**/maven-wrapper.jar
+.classpath
+.project
+.settings
 
 # IDE ignored files
 .idea/
